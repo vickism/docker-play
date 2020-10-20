@@ -6,7 +6,12 @@ app.get('/', (req, res) => {
   res.send([{
     name:"smith",
     age: 20
-  }])
+  },
+  {
+    name: "Joe",
+    age: 33
+  }
+])
 })
 
 app.listen(port, () => {
